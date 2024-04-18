@@ -6,7 +6,8 @@
     <title>LLR</title>
 </head>
 <body>
-    <h1><center>LLR registration form</center></h1>
+    <h1><center>LLR Registration form</center></h1>
+    <form action="main.py" method="post"
     <label for="uname">Enter Name:</label>
     <input type="text" name="uname" id="uname"/><br><br>
     <label for="age">Enter Age:</label>
@@ -15,9 +16,35 @@
     <input type="date" name="DOB" id="dob"><br><br>
     <label for="email">Enter your emial</label>
     <input type="email" name="email" id="em"><br><br>
-    <label for="ma">male</label>
+    <p>select gender</p>
     <input type="radio" name="ma" id="ma">
-    <lable for="fe"></lable>
-    <br>
+    <label for="ma">male</label>
+    <input type="radio" name="ma" id="fe">
+    <lable for="fe">female</lable><br><br>
+    <input type="checkbox" name="2wheeler" id="2 wheeler">
+    <label for="2w">2 wheeler</label>
+    <input type="checkbox" name="2wheeler" id="4 wheeler">
+    <label for="4w">4 wheeler</label><br><br>
+    <select name="vehicles" id="vehicle">
+        <optgroup label="2 wheeler">
+            <option value="b">bajaj</option>
+            <option value="y">yamaha</option>
+            <option value="h">hero</option>
+        </optgroup>
+        <optgroup label="4 wheeler">
+            <option value="m">maruti suziki</option>
+            <option value="ma">mahindra</option>
+            <option value="ta">tata motors</option>
+        </optgroup>
+        
+
+    </select>
+    <br><br>
+<button type="submit">
+    submit
+</button>
+
 </body>
+
 </html>
+    
