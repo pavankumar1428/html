@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:radial-gradient(rgb(244, 21, 21),white);
+}
+a:link
+{
+    background-color: blueviolet;
+}
+a:active{
+    background-color: black;
+    color: white;
+}
+a:visited
+{
+    color: blue;
+}
+input:hover{
+    background-color: aqua;
+}
+input:focus
+{
+    background-color: beige;
+}
+input:enabled{
+    background-color: burlywood;
+}
+.box{
+    height: 60px;
+    width: 60px;
+    border: 1px solid blue;
+}
+.box:nth-child(1),
+.box:nth-child(5)
+{background-color:bisque;
+}
+.box:empty{
+    background-color:darkblue;
+}
+p::first-letter{
+    font-size: 60px;
+}
+p::first-line
+{
+    background-color: white;
+}
+p::before{
+    content:"pavan"
+}
