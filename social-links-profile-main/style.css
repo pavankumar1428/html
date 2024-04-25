@@ -1,0 +1,99 @@
+:root{
+    --main-bg-color:hsl(0, 0%, 8%);
+    --second-bg-color:hsl(0, 0%, 12%);
+    --button-bg-color:hsl(0, 0%, 20%);
+    --button-hover-bg-color:hsl(75, 94%, 57%);
+    --button-hover-color:hsl(0, 0%, 20%);
+    --main-color:hsl(0, 0%, 100%);
+    --second-color:hsl(75, 94%, 57%);
+    --small-font-size: 0.875rem;
+    --border-radius: 0.60rem;
+    --margin-bottom: 0.75rem;
+    --cursor:url("./assets/images/up-sign.png"), pointer;
+    --font-small: 0.875rem;
+    --font-bold: bold;
+}
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: var( --main-color);
+}
+body{
+    font-family: "Inter", sans-serif;
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+}
+main{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+ }
+.container{
+    background-color: var(--second-bg-color);
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+}
+.user{
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    width: 5.5rem;
+    margin: 1rem;
+}
+h2{
+    font-size: 1.5rem;
+    font-weight:600;
+    padding: 0.5rem;
+}
+span{
+    font-size:var(--font-small);
+    font-weight: var( --font-bold);
+    color: var(--second-color);
+    padding: 1rem;
+}
+p{
+    font-size:var(--font-small);
+    font-weight: lighter;
+    padding: 1.5rem;
+}
+.social_link{
+    flex-direction: column;
+    align-items: stretch;
+}
+button{
+    padding: 0.8rem;  
+    background-color:var(--button-bg-color);
+    border-radius: var(--border-radius);
+    margin-bottom: var(--margin-bottom);
+    border: none;
+    display:inline-block;
+    color: var(--main-color);
+    cursor:var(--cursor);
+}
+button:hover{
+    background-color: var(--button-hover-bg-color);
+    color: var(--button-hover-color);
+    cursor: var(--cursor);
+    font-weight: var(--font-bold);
+}
+button:focus{
+    background-color: var(--button-hover-bg-color);
+    color: var(--button-hover-color);
+    cursor: var(--cursor);
+    font-weight: var(--font-bold);
+}
+footer{
+    text-align: center;
+    padding: 0.5rem;
+}
