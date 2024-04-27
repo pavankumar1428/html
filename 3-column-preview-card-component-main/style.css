@@ -2,24 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
 body{
     display: flex;
+    padding: auto;
+    width: auto;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     font-family: "Big Shoulders Display", sans-serif;
 }
 .container{
-    align-items: center;
-    justify-content: center;
+    
 }
 .card{
     color: #fff;
 }
 .card p{
     margin-top: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 .card-container{
-    padding: 40px;
+    padding: 100px;
 }
 .card-1{
     background: hsl(31, 77%, 52%);
@@ -36,10 +37,13 @@ body{
 }
 .btn-1{
     color: hsl(31, 77%, 52%);
+
+    
 }.btn-2{
     color:  hsl(184, 100%, 22%);
 }
 .btn-3{
+    text-align: center;
     color: hsl(179, 100%, 13%);
 }
 
