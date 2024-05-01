@@ -1,0 +1,33 @@
+.title{
+    padding: 20px;
+    background-color:navy;
+    color: azure;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 2px solid whitesmoke;
+}
+body{
+    padding: 10px;
+    background-color: navy;
+    color: azure;
+    gap: 80px;
+    font-size: 20px;
+    font-style: oblique;
+gap:initial 10px
+
+}
+button{
+    padding: 15px;
+    border:none;
+    outline: none;
+    width: 120px;
+    border-radius: 20px;
+    background: white;
+}
+button:hover{
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: all 1s;
+
+}
