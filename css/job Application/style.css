@@ -29,5 +29,7 @@ button:hover{
     color: #fff;
     border: 2px solid #fff;
     transition: all 1s;
-
+}
+.gender{
+    display:flex;
 }
